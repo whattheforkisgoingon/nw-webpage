@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Monitor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .screenshot {
+            text-align: center;
+        }
+        .screenshot img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1em;
+        }
+        .description {
+            margin-bottom: 2em;
+        }
+        .download {
+            text-align: center;
+        }
+        .download a {
+            display: inline-block;
+            padding: 0.8em 1.5em;
+            background-color: #0078D7;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .download a:hover {
+            background-color: #005BB5;
+        }
+        .note {
+            margin-top: 0.5em;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+            font-size: .8em;
+        }
+        footer a {
+            color: #dddddd;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Network Monitor</h1>
+    <p>Effortlessly monitor your network's performance.</p>
+</header>
+
+<div class="container">
+    <div class="screenshot">
+        <h2>Screenshot</h2>
+        <img src="screenshot.png" alt="Network Monitor v2 Screenshot">
+    </div>
+    <div class="description">
+        <h2>About</h2>
+        <p>
+            Network Monitor is a lightweight tool for Windows designed to monitor your network connection by sending periodic ping requests.
+            View statistics like average latency, packet loss rate, and more, all in a user-friendly interface.
+        </p>
+        <p>
+            Features include:
+        </p>
+        <ul>
+            <li>Customizable ping interval and timeout.</li>
+            <li>Real-time latency and packet loss tracking.</li>
+            <li>Support for multiple languages.</li>
+        </ul>
+    </div>
+    <div class="download">
+        <h2>Download</h2>
+        <a href="NetworkMonitor_v2.1.0.exe" download>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20" height="20" style="vertical-align: middle; fill: white;">
+                <path d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"/>
+            </svg>
+            Download Network Monitor v2.1.0 (2020-04-18)
+        </a>
+        <p class="note">
+            Platform: Windows &nbsp;&nbsp; Size: 912 KB &nbsp;&nbsp; Languages: English, 简体中文<br />
+            Note: This will not receive updates as the source code has been lost.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <p>Copyright &copy; Qian. Licensed under <a href="http://www.wtfpl.net" target="_blank">WTFPL</a>.</p>
+</footer>
+
+</body>
+</html>
